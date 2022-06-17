@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	text-transform: capitalize;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	transition: all .2s linear;
+}
+/* 导航栏 */
+header{
+	position: fixed;
+	    top:0; 
+	    left: 0; 
+	    right:0;
+	    background:black;
+		opacity: 0.6 ;
+	    z-index: 900;
+	    align-items: center;
+	    justify-content: space-between;
+	   
+}
+header .logo span{
+        color: #ffa500;
+    }
+
+    header .logo{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:#fff;
+    text-transform: uppercase;
+    }
+
+    header .navbar a{
+        color:#fff;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-right:65px;
+      }
+
+    header .navbar a:hover{
+        color:#ffa500;
+      }
+	  
